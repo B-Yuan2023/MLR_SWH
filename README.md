@@ -20,6 +20,8 @@ pytorch-msssim is from
 ===========================================================
 ## How to use 
 
+Data are downloaded from CMEMS and ERA5, see examples and downloading scripts in  
+[https://github.com/B-Yuan2023/Ensemble_SRResNet_SWH].  
 To run the model without batch file, change 'mod_name' from 'sys.argv[1]' 
 to the name of the parameter file (e.g., 'par55e') in train.py. 
 Next in a linux terminal: python train.py, or run with python IDE like spyder. 
@@ -73,7 +75,6 @@ Comparison of 2D spatial pattern and time series at selected location in user de
 	stations selected based on plot_study_domain.py (modify select_sta in funs_sites.py for custom use).   
 6. compare_2D_pnt.py:  
 	compare sr & hr at selected time (2d map plot) and selected stations (line plot).  
-
 7. test_time.py:  
 	check the referencing time after training for a selected period.  
 
