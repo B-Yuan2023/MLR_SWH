@@ -37,8 +37,9 @@ To test the model with specified data period:
 python test_t.py or sbatch test_r55e_tuse1.sh   
 ```  
 
-## Mainly used python scripts and steps to produce figures:  
 ===========================================================
+## Mainly used python scripts and steps to produce figures:  
+
 Main scripts for training and testing:  
 1. train.py:   
 	
@@ -63,6 +64,7 @@ Comparison of metrics: (plot)
   
 Scripts needed:  
 funs_prepost.py: functions for post-processing.  
+
 ===========================================================
 Comparison of 2D spatial pattern and time series at selected location in user defined period: (plot)  
 5. test_tuse.py:  
