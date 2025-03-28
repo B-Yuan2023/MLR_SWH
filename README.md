@@ -26,17 +26,18 @@ Next in a linux terminal: python train.py, or run with python IDE like spyder.
 
 To train the model:   
 ```	
-	python train.py, or sbatch train_r55e_md0.sh
-
+python train.py, or sbatch train_r55e_md0.sh
 ```
 To test the model:   
-```	python test.py or sbatch test_r55e_md0.sh   
+```	
+python test.py or sbatch test_r55e_md0.sh   
 ```
 To test the model with specified data period:   
-```	python test_t.py or sbatch test_r55e_tuse1.sh   
-```
+```	
+python test_t.py or sbatch test_r55e_tuse1.sh   
+```  
 
-Mainly used python scripts and steps to produce figures:  
+## Mainly used python scripts and steps to produce figures:  
 ===========================================================
 Main scripts for training and testing:  
 1. train.py:   
@@ -59,7 +60,7 @@ par*.py: parameter file (located in the parent path of \scripts), including mode
 Comparison of metrics: (plot)  
 4. compare_metrics.py: (plot)  
 	compare metrics between different experiments (e.g. scale factor) using ensemble model.  
-
+  
 Scripts needed:  
 funs_prepost.py: functions for post-processing.  
 ===========================================================
